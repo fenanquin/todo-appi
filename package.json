@@ -1,0 +1,21 @@
+{
+  "name": "todo-appi",
+  "version": "1.0.0",
+  "description": "An TO-DO application, that is also an API, to practice concepts and frameworks",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha tests/**/*.test.js -R tap -u tdd"
+  },
+  "author": "Fernando Aquino",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongoose": "^5.0.0-rc2"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^4.0.1",
+    "supertest": "^3.0.0"
+  }
+}
