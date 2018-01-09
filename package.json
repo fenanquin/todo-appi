@@ -1,7 +1,7 @@
 {
   "name": "todo-appi",
   "version": "1.0.0",
-  "description": "An TO-DO application, that is also an API, to practice concepts and frameworks",
+  "description": "A TO-DO application, that is also an API, to practice concepts and frameworks",
   "main": "app.js",
   "scripts": {
     "test": "mocha tests/**/*.test.js -R tap -u tdd"
