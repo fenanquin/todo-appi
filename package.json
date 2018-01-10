@@ -4,7 +4,7 @@
   "description": "A TO-DO application, that is also an API, to practice concepts and frameworks",
   "main": "app.js",
   "scripts": {
-    "test": "mocha tests/**/*.test.js -R tap -u tdd"
+    "test": "mocha --exit tests/*.test.js tests/**/*.test.js -R tap -u tdd"
   },
   "author": "Fernando Aquino",
   "license": "MIT",
