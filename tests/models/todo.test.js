@@ -9,4 +9,9 @@ suite('Todo', () => {
     var todo = new Todo({text: undefined});
     return assert.isRejected(todo.validate());
   });
+
+  test('should reject null on text field', () => {
+    var todo = new Todo({text: null});
+    return assert.isRejected(todo.validate());
+  });
 });
